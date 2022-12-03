@@ -8,6 +8,8 @@ function sym(args1, args2) {
     )
 
    let answer = v.concat(w)
+   
+   //Remove duplicates
    let uniqanswer = [...new Set(answer)]
    return uniqanswer
 }
