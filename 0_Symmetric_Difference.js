@@ -32,7 +32,7 @@ function sym() {
         )
 
         let elements = v.concat(w)
-        let uniqelements = [...new Set(answer)]
+        let uniqelements = [...new Set(elements)]
         return uniqelements
     } 
 
